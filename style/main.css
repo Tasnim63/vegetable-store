@@ -1,10 +1,112 @@
+/* general css */
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300;500&family=PT+Serif:ital@1&family=Seaweed+Script&display=swap');
 
 
-:root{
-    --lg-font: 'Lobster', cursive;
-    --sm-font: 'Oswald', sans-serif;
+
+*,
+*::before,
+*::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    text-decoration: none;
+    outline: none;
+    /* font family */
+    --primary-font:'Oswald', sans-serif;
+    --secondary-font:'Lobster', cursive;
+
 }
-body{
-font-family:'Oswald', sans-serif;
+
+:root{
+    /* background color */
+    --bg-white:#fff;
+   /* text-color */
+   --primary-color:#212121;
+   --secondary-color:#79cba8;
+   --golden-text:rgba(245, 166, 74, 1.00)
+   --light-gray:
+   --text-white:#fff;
+}
+
+body,html{
+     color: var(--primary-color);
+     font-size: 15px;
+     font-weight: 400;
+     font-family: var(--primary-font);
+     scroll-behavior: smooth;
+     line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+h1{
+    font-size: 9rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+h2{
+    color: var(--primary-color);
+    font-size: 4.7rem;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: capitalize;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+h3{
+    color:var(--golden-text) ;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h4{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--primary-color);
+}
+h5{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 1rem;
+    color: var(--primary-color);
+}
+embed,iframe,img,object{
+    max-width: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a,a:active,a:focus,a:hover,button{
+    text-decoration: none;
+    outline: 0;
+}
+li a{
+    color:var(--secondary-color);
+}
+a:hover,
+button:hover{
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3 ease-in;
+    transition: all 0.3s ease-in;
+}
+
+::-webkit-scrollbar{
+    width: 1rem;
+}
+::-webkit-scrollbar{
+    background: var(--bg-white);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--secondary-color);
 }
