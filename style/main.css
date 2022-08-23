@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300;500&family=PT+Serif:ital@1&family=Seaweed+Script&display=swap');
 
 
-
+:root{
+    --lg-font: 'Lobster', cursive;
+    --sm-font: 'Oswald', sans-serif;
+}
 body{
-    font-family: 'Oswald', sans-serif;
+font-family:'Oswald', sans-serif;
 }
