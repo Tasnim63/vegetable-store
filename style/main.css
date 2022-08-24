@@ -27,15 +27,17 @@
     --bg-white:#fff;
    /* text-color */
    --primary-color:#212121;
-   --secondary-color:#79cba8;
-   --golden-text:rgba(245, 166, 74, 1.00)
+   --bg-dark:rgb(46, 43, 43);
+   --secondary-color:#057545;
+   --text: #76a713;
+   --light-text: #d4d5d1;
    --light-gray:
    --text-white:#fff;
 }
 
 body,html{
      color: var(--primary-color);
-     font-size: 10px;
+    font-size: 10px;
      font-weight: 400;
      font-family: var(--primary-font);
      scroll-behavior: smooth;
@@ -60,7 +62,7 @@ h2{
     margin-bottom: 2rem;
 }
 h3{
-    color:var(--golden-text) ;
+    color:var(--text) ;
     font-size: 3.2rem;
     line-height: 1.2;
     font-weight: 700;
@@ -76,6 +78,9 @@ h5{
     font-weight: 600;
     line-height: 1;
     margin-top: 1rem;
+    color: var(--primary-color);
+}
+p{
     color: var(--primary-color);
 }
 embed,iframe,img,object{
@@ -101,15 +106,18 @@ button:hover{
     transition: all 0.3s ease-in;
 }
 
-::-webkit-scrollbar{
+
+
+
+ ::-webkit-scrollbar {
     width: 1rem;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar-track {
     background: var(--bg-white);
 }
-::-webkit-scrollbar-thumb{
-    background: var(--secondary-color);
-}
+::-webkit-scrollbar-thumb {
+    background:#107a4c;
+} 
 .main-btn{
     position: relative;
     color: var(--bg-white);
@@ -153,7 +161,7 @@ section{
 .product .banner_section,
 .gallery .banner_section,
 .contact .banner_section{
-    background-image: url("");
+    background-image: url("https://html.themexriver.com/organio/assets/img/bg/banner-bg1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -171,11 +179,11 @@ section{
     z-index: 2;
  
 }
-.header{
-    background: url('../assets/images/header-bg.png');
+.header .navbar{
+    background: url('https://html.themexriver.com/organio/assets/img/bg/bg-mailchimp.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     padding: 2rem 5rem;
 }
 .header .navbar-brand{
@@ -205,3 +213,105 @@ section{
     outline: none;
     box-shadow: none;
 }
+.header .header_right   span{
+    color: var(--secondary-color);
+    display: block;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
+.header .header_right .phone_number{
+color: var(--bg-white);
+}
+.header-scrolled{
+    position: fixed;
+    top: -0.4rem;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width:1320px ;
+    margin: auto;
+    z-index: 999;
+    transition: 0.3s all ease-in-out;
+}
+.banner_section{
+background: url("http://uitheme.net/orgomart/images/banner-slider-2.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-height: 90vh;
+}
+.banner_section .carousel-item{
+    padding: 3rem 0;
+    height: 90vh;
+
+}
+.banner_section .carousel-caption{
+    top: 30%;
+    bottom: 0;
+    left: 3%;
+    right: 0;
+    text-align: left;
+    width: 100%;
+
+}
+
+.banner_section .carousel-caption p{
+    max-width: 40rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    max-width: 40rem;
+} 
+
+
+/* fodd section */
+.food_section .food_box{
+background: transparent;
+border: 0.15rem solid var(--light-text);
+transition: all 0.3s ;
+
+}
+.food_section .food_icon_border{
+    margin-top: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0.2rem solid var(--light-text);
+    padding: 1.3rem;
+    display: inline-block;
+
+}
+ .food_section  .food_box .food_icon{
+    height: 6.5rem;
+    width: 6.5rem;
+    background-color: var(--light-text);
+    margin: auto;
+    border-radius: 50%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+ }
+ .food_section  .food_box .food_icon img{
+    width: 3.7rem;
+
+ }
+ .food_section .food_box h3{
+    margin-top: 1.5rem;
+    color: var(--text);
+ }
+ .food_section .food_box p{
+    color: var(--primary-color);
+    margin: 1rem 0;
+ }
+ .food_section .food_box:hover{
+    background-color: var(--bg-dark);
+    border-color: var(--bg-dark);
+ }
+ .food_section .food_box:hover h3{
+    color: var(--bg-white);
+ }
+ .food_section .food_box:hover p{
+    color: var(--bg-white);
+ }
+ .food_section .food_box:hover .food_icon_border{
+    border-color: var(--text);
+ }
