@@ -35,7 +35,7 @@
 
 body,html{
      color: var(--primary-color);
-     font-size: 15px;
+     font-size: 10px;
      font-weight: 400;
      font-family: var(--primary-font);
      scroll-behavior: smooth;
@@ -148,4 +148,44 @@ section{
     max-width:40%;
     margin: auto;
     margin-bottom:1.5rem ;
+}
+.about .banner_section,
+.product .banner_section,
+.gallery .banner_section,
+.contact .banner_section{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    min-height: auto;
+}
+
+/* navbar */
+.header{
+    position: absolute;
+    width: 100%;
+    top: 2rem;
+    left: 0;
+    z-index: 2;
+ 
+}
+.header{
+    background: url('../assets/images/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 2rem 5rem;
+}
+.header .navbar-brand{
+    width: 7.5rem;
+    margin: -0.1rem;
+}
+.header  .navbar-nav .nav-link{
+    color: var(--bg-white);
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+    
 }
