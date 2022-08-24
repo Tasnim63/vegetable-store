@@ -26,7 +26,7 @@
     /* background color */
     --bg-white:#fff;
    /* text-color */
-   --primary-color:#212121;
+   --primary-color:#2a2828;
    --bg-dark:rgb(46, 43, 43);
    --secondary-color:#057545;
    --text: #76a713;
@@ -58,20 +58,21 @@ h2{
     font-weight: 600;
     display: inline-block;
     text-transform: capitalize;
-    line-height: 1.2;
-    margin-bottom: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
 }
 h3{
     color:var(--text) ;
     font-size: 3.2rem;
-    line-height: 1.2;
+    line-height: 1.6;
     font-weight: 700;
+    margin-bottom: .6rem;
 }
 h4{
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1;
-    color: var(--primary-color);
+    line-height: 1.6;
+    color: var(--text);
 }
 h5{
     font-size: 1.8rem;
@@ -301,6 +302,7 @@ transition: all 0.3s ;
  .food_section .food_box p{
     color: var(--primary-color);
     margin: 1rem 0;
+    font-size: 1.5rem;
  }
  .food_section .food_box:hover{
     background-color: var(--bg-dark);
@@ -315,3 +317,53 @@ transition: all 0.3s ;
  .food_section .food_box:hover .food_icon_border{
     border-color: var(--text);
  }
+/* about section */
+.landing_about_section {
+    background: url("https://amigos-themes.com/frutella/assets/images/content/1920x1080/pexels-karolina-grabowska-5386707.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 9rem 0;
+}
+.landing_about_section p{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.landing_product_section .product_card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+   
+    border: 0.2rem solid var(--light-text);
+    padding: 2rem;
+    transition: all 0.3s;
+
+}
+.landing_product_section .product_card .product_img{
+margin-bottom: 7rem;
+text-align: center;
+
+}
+.landing_product_section .product_card span{
+   color: var(--primary-color);
+   font-size: 1.8rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   margin-right: 0.5rem;
+   text-decoration: line-through;
+   transition: all 0.3s;
+}
+.landing_product_section .product_card .product_details{
+    position: absolute;
+    bottom: -22rem;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: var(--bg-dark);
+    transition: all 0.5s ease;
+}
+.landing_product_section .product_card:hover .product_details{
+bottom: 0;
+}
