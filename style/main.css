@@ -428,4 +428,31 @@ border-radius: 50%;
     background: url("https://www.ncodetechnologies.com/OrganicFoodStore/images/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 15rem;
+    padding-bottom: 0rem;
+}
+.footer_wrapper h5{
+    color: var(--bg-white);
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+.footer_wrapper ul li {
+   margin-bottom: 0.5rem;
+   list-style: none;
+
+}
+.footer_wrapper .company_details{
+    font-size: 1.4rem;
+}
+.footer_wrapper .contact-info li a{
+   color: var(--light-text);
+   font-size: 1.6rem;
+}
+.footer_wrapper .link-widget li a , .footer_wrapper p{
+color: var(--light-text);
+font-size: 1.6rem;
+padding-left: 1.5rem;
+position: relative;
+-webkit-transition:  all 0.3s ease-out 0s;
+transition: all 0.3s ease-out 0s;
 }
