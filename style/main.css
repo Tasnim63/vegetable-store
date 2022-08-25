@@ -373,6 +373,9 @@ bottom: 0;
     padding-bottom: 8rem;
     
 }
+.testimonial_section p{
+    font-size: 1.2rem;
+}
 .testimonial_section .carousel-indicators{
 bottom: -6rem;
 }
@@ -407,5 +410,12 @@ border-radius: 50%;
 }
 .testimonial_section .describtion_box{
     padding-left: 2.5rem;
-    
+
 } 
+
+/* gallery section */
+.gallery_section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
