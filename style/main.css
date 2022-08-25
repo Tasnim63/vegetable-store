@@ -414,8 +414,18 @@ border-radius: 50%;
 } 
 
 /* gallery section */
+.gallery_section p{
+    font-size: 1.8rem;
+}
 .gallery_section img{
-    height: 100%;
+    height: 350px;
     width: 100%;
     object-fit: cover;
+}
+/* footer  */
+
+.footer_wrapper{
+    background: url("https://www.ncodetechnologies.com/OrganicFoodStore/images/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
