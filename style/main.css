@@ -535,3 +535,11 @@ line-height: 0;
     font-size: 1.6rem;
 
 }
+
+/* **********************product page start here***************** */
+.product_section h2{
+color: var(--text);
+}
+.product_section p{
+    font-size: 1.8rem;
+}
