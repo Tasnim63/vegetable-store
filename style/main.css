@@ -566,5 +566,32 @@ box-shadow: none;
     color: var(--text);
     font-size: 1.5rem;
     font-weight: 400;
-    
+
+}
+.contact_section .contact_form  textarea{
+min-height:15rem ;
+}
+.contact_section .contact_form .info_box li{
+position: relative;
+padding-left: 7rem ;
+padding-bottom: 3.5rem;
+margin-bottom:2.9rem ;
+}
+.contact_section .contact_form .info_box li i{
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    font-size:4.5rem ;
+    line-height: 4.5rem;
+    color: var(--text);
+}
+.contact_section .contact_form .info_box li p{
+    color: var(--primary-color);
+    font-size: 1.8rem;
+}
+.contact_section .contact_form .info_box li a{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
 }
