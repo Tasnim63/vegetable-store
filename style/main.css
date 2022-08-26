@@ -542,4 +542,5 @@ color: var(--text);
 }
 .product_section p{
     font-size: 1.8rem;
+    margin-bottom: 1.5rem;
 }
