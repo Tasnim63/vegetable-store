@@ -595,3 +595,11 @@ margin-bottom:2.9rem ;
     font-weight: 400;
     margin-bottom: 0;
 }
+/* ********************error page style****************** */
+.error_section h2{
+color: var(--text);
+}
+.error_section p{
+    color: var(--primary-color);
+    font-size: 1.7rem;
+}
