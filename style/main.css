@@ -544,3 +544,27 @@ color: var(--text);
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
+
+/* ****************contact page*************** */
+.contact_section .contact_form{
+    background-color: var(--light-text);
+    padding: 5rem;
+    box-shadow:0 0.2rem 1.5rem rgba(0 0 0 / 4%) ;
+
+}
+.contact_section .contact_form .form-control:focus{
+outline: none;
+box-shadow: none;
+}
+.contact_section .contact_form .form-control::placeholder{
+    color: var(--text);
+}
+.contact_section .contact_form .form-control{
+    padding: 1rem 1.5rem;
+    border-radius: 0rem ;
+    border: 0.1rem solid var(--text);
+    color: var(--text);
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
