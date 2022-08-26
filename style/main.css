@@ -524,6 +524,12 @@ line-height: 0;
 }
 
 /* about content */
+.about_section h2{
+    color: var(--secondary-color);
+}
+.about_section p{
+    font-size: 2rem;
+}
 .about_section .about_details p{
     color: var(--primary-color);
     font-size: 1.6rem;
