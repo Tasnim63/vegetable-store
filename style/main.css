@@ -500,5 +500,25 @@ transition: all 0.3s cubic-bezier(0.645 , 0.045 , 0.355 ,1);
 }
 .footer_wrapper .form-control:focus{
     outline: none;
-    
+    box-shadow: none;
+    border-color: var(--text) ;
+}
+.footer_wrapper .copyright-section {
+    background-color: var(--text);
+    text-align: center;
+    margin-top: 5rem;
+}
+.footer_wrapper .copyright-section p{
+margin-top: 0;
+padding: 3rem 0;
+line-height: 0;
+}
+
+
+
+
+/* ******************about page start here************** */
+.banner_content{
+    text-align: center;
+     margin-top: 30%;
 }
