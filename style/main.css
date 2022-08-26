@@ -522,3 +522,10 @@ line-height: 0;
     text-align: center;
      margin-top: 30%;
 }
+
+/* about content */
+.about_section .about_details p{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+
+}
