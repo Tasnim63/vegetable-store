@@ -162,7 +162,7 @@ section{
 .product .banner_section,
 .gallery .banner_section,
 .contact .banner_section{
-    background-image: url("https://html.themexriver.com/organio/assets/img/bg/banner-bg1.jpg");
+   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -236,7 +236,7 @@ color: var(--bg-white);
     transition: 0.3s all ease-in-out;
 }
 .banner_section{
-background: url("http://uitheme.net/orgomart/images/banner-slider-2.jpg");
+background: url("https://demo.artureanec.com/html/agro/img/home_img/home_3_bg.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
